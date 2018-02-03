@@ -1,0 +1,68 @@
+- name: Brand Orange
+  hex: '#e98300'
+  variable-name: '$main-color'
+  pantone: 'PMS 144'
+  cmyk: '0C 52M 100Y 0K'
+  main: true
+
+- name: Black
+  hex: '#000'
+  variable-name: '$black'
+  pantone: 'n/a'
+  cmyk: '60C 40M 40Y 100K'
+  main: true
+
+- name: White
+  hex: '#FFF'
+  variable-name: '$white'
+  main: true
+  pantone: 'n/a'
+  cmyk: 'n/a'
+  shade: light
+
+- name: Gray Dark
+  hex: '#373736'
+  variable-name: '$gray-dark'
+  web-gray: true
+
+- name: Gray
+  hex: '#595958'
+  variable-name: '$gray'
+  pantone: 'TBD'
+  cmyk: 'TBD'
+  main: true
+  web-gray: true
+
+- name: Gray Light
+  hex: '#d4d4d2'
+  variable-name: '$gray-light'
+  web-gray: true
+
+- name: Gray Lightest
+  hex: '#F0F0F0'
+  variable-name: '$gray-lightest'
+  web-gray: true
+  shade: light
+
+- name: Success
+  hex: '#5bad29'
+  variable-name: '$success'
+  web-special: true
+
+- name: Error
+  hex: '#dd2a00'
+  variable-name: '$error'
+  web-special: true
+
+- name: Highlight
+  hex: '#ffffb2'
+  variable-name: '$highlight-background'
+  web-special: true
+  shade: light
+
+- name: (off brand) Green
+  hex: '#8dc63f'
+  pantone: 'PMS 376'
+  cmyk: '50C 0M 100Y 0K'
+  rgb: '141 198 63'
+  variable-name: '$green'

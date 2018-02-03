@@ -1,0 +1,11 @@
+<div class="color-list__color {{ color.shade }}" style="background-color: {{ color.hex }};border-color: {{ color.hex }}">
+{% if include.layout == 'main' %}
+  <span class="color__title"><strong>{{ color.name }}</strong></span>
+  <span>{{ color.cmyk }}</span>
+  <span>{{ color.hex }}</span>
+  <span>{{ color.pantone }}</span>
+{% else %}
+  <span class="color__title"><strong>{{ color.name }}</strong> <em>({{ color.variable-name }})</em></span>
+  <span>{{ color.hex }}</span>
+{% endif %}
+</div>

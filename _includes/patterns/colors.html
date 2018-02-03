@@ -1,0 +1,21 @@
+<div class="color-list">
+	{% for color in site.data.colors %}
+	{% if include.layout == 'web-main' %}
+		{% if color.main %}
+		{% include patterns/color-swatch.html %}
+		{% endif %}
+	{% elsif include.layout == 'web-gray' %}
+		{% if color.web-gray %}
+		{% include patterns/color-swatch.html %}
+		{% endif %}
+	{% elsif include.layout == 'web-special' %}
+		{% if color.web-special %}
+		{% include patterns/color-swatch.html %}
+		{% endif %}
+	{% else %}
+		{% if color.main %}
+		{% include patterns/color-swatch.html layout='main' %}
+		{% endif %}
+	{% endif %}
+	{% endfor %}
+</div>
