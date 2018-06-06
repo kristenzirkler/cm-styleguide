@@ -26,7 +26,7 @@
   web-gray: true
 
 - name: Gray
-  hex: '#595958'
+  hex: '#8b8b8a'
   variable-name: '$gray'
   pantone: 'TBD'
   cmyk: 'TBD'

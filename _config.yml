@@ -2,6 +2,7 @@ highlighter: rouge
 github: [Repository metadata]
 
 baseurl: "https://kristenzirkler.github.io/cm-styleguide"
+livereload: true
 
 # Sass
 sass:
