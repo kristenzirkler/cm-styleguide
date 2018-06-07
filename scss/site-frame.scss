@@ -4,33 +4,6 @@ $mobile-nav-width: 200px;
 $nav-menu-icon-size: 24px;
 $main-nav-background: $main-color;
 /*
-.cm-site-header {
-  height: $nav-height;
-  background: $black;
-  .logo {
-    text-align: center;
-    a {
-      line-height: $nav-height;
-      display: block;
-    width: 290px;
-    margin: 0 auto;
-    }
-    span {
-      margin: 12px auto 0;
-      float: left;
-    }
-    em {
-      line-height: $nav-height+5;
-      display: inline-block;
-      text-decoration: none;
-      font-size: 20px;
-      font-weight: bold;
-      color: $white;
-      float: left;
-      margin-left: 10px;
-    }
-  }
-}*/
 .nav-icon {
   display: inline-block;
   //background-image: url(/downloads/Images/nav-icons-v3.png);
@@ -49,7 +22,7 @@ $main-nav-background: $main-color;
     height: 50px;
     background-position: 0 -26px;
   }
-}
+}*/
 .navigation {
   width: $nav-width;
   position: fixed;
@@ -60,9 +33,7 @@ $main-nav-background: $main-color;
   .logo {
     a {
       display: block;
-    }
-    em {
-      display: block;
+      max-width: 150px;
       font-size: 16px;
       font-weight: bold;
       text-transform: uppercase;
