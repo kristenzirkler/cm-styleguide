@@ -1,0 +1,129 @@
+---
+ad-path: ad-2018-08-13-2.html
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]--><head>
+<style>
+body {
+	font-family: Heebo;
+}
+.container {
+	padding: 20px;
+	max-width: 900px;
+
+}
+.one-ad {
+	padding: 10px 0 0 0;
+	border-top: 1px solid #ddd;
+	margin: 0 20px 40px 0;
+	/*float: left;*/
+}
+h1, hr {
+	clear: both;
+	margin: 0; padding: 0;
+}
+h2 {
+	margin: 0 0 20px; padding: 0;
+	font-size: 14px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<h1>Google 8/2018</h1>
+	{% include ad-iframe.html src=page.ad-path width='300' height='250' %}
+	{% include ad-iframe.html src=page.ad-path width='728' height='90' %}
+	{% include ad-iframe.html src=page.ad-path width='160' height='600' %}
+</div>
+
+{% comment %}
+
+	<h1>Main</h1>
+	{% include ad-iframe.html src=page.ad-path width='300' height='250' %}
+	{% include ad-iframe.html src=page.ad-path width='336' height='280' %}
+	{% include ad-iframe.html src=page.ad-path width='728' height='90' %}
+	{% include ad-iframe.html src=page.ad-path width='300' height='600' %}
+	{% include ad-iframe.html src=page.ad-path width='320' height='100' %}
+	<hr><hr>
+	<h1>All Square</h1>
+	{% include ad-iframe.html src=page.ad-path width='300' height='250' %}
+	{% include ad-iframe.html src=page.ad-path width='336' height='280' %}
+	{% include ad-iframe.html src=page.ad-path width='250' height='250' %}
+	{% include ad-iframe.html src=page.ad-path width='200' height='200' %}
+	{% include ad-iframe.html src=page.ad-path width='180' height='150' %}
+	{% include ad-iframe.html src=page.ad-path width='125' height='125' %}
+
+	<h1>All Wide</h1>
+	{% include ad-iframe.html src=page.ad-path width='970' height='90' %}
+	{% include ad-iframe.html src=page.ad-path width='728' height='90' %}
+	{% include ad-iframe.html src=page.ad-path width='320' height='100' %}
+
+	<h1>All Tall</h1>
+
+
+
+
+	{% include ad-iframe.html src=page.ad-path width='' height='' %}
+	{% include ad-iframe.html src=page.ad-path width='' height='' %}
+	{% include ad-iframe.html src=page.ad-path width='' height='' %}
+	{% include ad-iframe.html src=page.ad-path width='' height='' %}
+31px "micro"
+	micro bar (88 x 31)
+60px "button"
+	button 2 (120 x 60)
+	half banner (234 x 60)
+	full banner (468 x 60)
+90px "banner"
+	button 1 (120 x 90)
+	leaderboard (728 x 90)
+125px "small rectangle"
+	square button (125 x 125)
+250px "medium rectangle"
+	vertical banner (120 x 240* Close enough!)
+	square pop-up (250 x 250)
+	medium rectangle (300 x 250)
+400px "large rectangle"
+	vertical rectangle (240 x 400)
+600px "skyscraper"
+	skyscraper (120 x 600)
+	wide skyscraper (240 x 600)
+	half-page ad (300 x 600)
+
+
+
+
+250 x 250 – Square
+200 x 200 – Small Square
+468 x 60 – Banner
+728 x 90 – Leaderboard
+300 x 250 – Inline Rectangle
+336 x 260 – Large Rectangle
+120 x 600 – Skyscraper
+160 x 600 – Wide Skyscraper
+300 x 600 – Half-Page Ad
+970 x 90 – Large Leaderboard
+Oh, right. There’s one more. There’s one ad size not available for use on desktop / tablet advertising, but is available on the fanciest of the fancy mobile devices; that’s this one:
+
+320 x 50 – Mobile Leaderboard
+	{% include ad-iframe.html src=page.ad-path width='' height='' %}
+
+320x50
+468x60
+234x60
+120x600
+120x240
+160x600
+300x1050
+970x90
+970x250
+250x250
+200x200
+180x150
+125x125
+
+{% endcomment %}
+</body>
+</html>
