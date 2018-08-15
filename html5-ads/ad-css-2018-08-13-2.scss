@@ -74,7 +74,7 @@ button, .button {
 		top: 0;
 		left: 0; right: 0;
 		padding: 10px;
-		height: 65%;
+		height: 68%;
 		z-index: 2;
 		//background-image: url(counter-bg.jpg);
 		//background-size: cover;
@@ -88,7 +88,7 @@ button, .button {
 		font-size: 16px;
 		line-height: 24px;
 		font-weight: normal;
-		text-align: center;
+		//text-align: center;
 		position: relative;
 		z-index: 2;
 		strong {
@@ -111,10 +111,17 @@ button, .button {
 			}
 		}
 	}
+	.button {
+		position: absolute;
+		z-index: 5;
+		width: auto;
+		top: 125px;
+		left: 14px;
+	}
 	.stream-image {
 		position: absolute;
 		top: 20px; bottom: -20px;
-		left: 10%; right: 0;
+		left: 4px; right: 0;
 		background-image: url(counter-stream+.png);
 		background-size: contain;
 		background-position: right bottom;
@@ -127,17 +134,17 @@ button, .button {
 		background: $black;
 		color: $white;
 		padding: 10px;
-		height: 35%;
+		height: 32%;
 		font-size: 14px;
 		z-index: 3;
 	}
 	.features {
-		width: 49%;
-		font-size: 13px;
-		line-height: 15px;
+		width: 45%;
+		font-size: 12px;
+		line-height: 14px;
 	}
 	.logo {
-		width: 90px;
+		width: 85px;
 		fill: $white;
 	}
 	.guide-image {
@@ -172,6 +179,11 @@ button, .button {
 			font-size: 36px;
 		}
 	}
+	.button {
+		top: 34px;
+		left: auto;
+		right: 0;
+	}
 	.stream-image {
 		left: 0;
 		top: 5px;
@@ -183,6 +195,7 @@ button, .button {
 	}
 	.features {
 		font-size: 15px;
+		line-height: 17px;
 	}
 	.guide-image {
 		top: 0;
@@ -203,6 +216,9 @@ button, .button {
 		position: absolute;
 		top: 50px; bottom: -20px;
 		left: -130px; right: 0;
+	}
+	.button {
+		top: 134px;
 	}
 	.bottom {
 		height: 55%;
