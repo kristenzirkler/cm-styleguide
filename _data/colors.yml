@@ -1,7 +1,7 @@
 - name: Brand Orange
   hex: '#e98300'
   variable-name: '$main-color'
-  #pantone: 'PMS 144'
+  pantone: 'PMS 144'
   cmyk: '6C 57M 100Y 0K'
   main: true
 
